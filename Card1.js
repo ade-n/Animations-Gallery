@@ -1,8 +1,6 @@
 import React from "react";
 import { useSpring, animated } from "react-spring";
 
-import CardTemplate from "../CardTemplate/CardTemplate";
-
 const Card1 = () => {
   const animate = useSpring({
     opacity: 1,
@@ -19,7 +17,6 @@ const Card1 = () => {
           REFRESH TO SEE ME FADING
         </animated.div>
       </div>
-      <CardTemplate link="/card1" transition="Auto Fading" />
     </div>
   );
 };
