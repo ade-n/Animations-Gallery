@@ -16,7 +16,7 @@ const Card1 = () => {
           className=" text-pink-300 text-center py-16 font-bold text-2xl"
           style={animate}
         >
-          REFRESH TO SEE ME FAIDING
+          REFRESH TO SEE ME FADING
         </animated.div>
       </div>
       <CardTemplate link="/card1" transition="Auto Fading" />
